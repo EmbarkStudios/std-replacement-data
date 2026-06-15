@@ -38,26 +38,10 @@ To build it locally (Python 3.11+ for `tomllib`):
 python3 build.py
 ```
 
-## What qualifies
+## Contributing
 
-Standard-library replacements only. The dataset deliberately avoids "prefer this
-nicer crate instead" recommendations.
-
-Two kinds of entries qualify:
-
-- **Full**: the crate's functionality is entirely available through a stable
-  `std` API.
-- **Partial**: the bulk of the crate's common use case has moved to `std`, but
-  not all of it. The `description` must spell out what is still missing.
-
-Coverage is judged by the dominant use case. If only a small slice of a crate's
-purpose lives in `std`, it does not qualify. `itertools` is the canonical
-exclusion: a handful of its adaptors have `std` equivalents, but the crate as a
-whole is not replaced.
-
-Before an entry lands, the maintainer(s) of the flagged crate get a window to
-weigh in, either to object or to show that the replacement is less complete than
-claimed, in which case the entry becomes partial or is dropped.
+New entries are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md) for what
+qualifies as a std replacement and how to add one.
 
 ## Origin
 
