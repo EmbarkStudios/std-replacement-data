@@ -1,0 +1,38 @@
+{
+  "stable": {
+    "42": [
+      {
+        "crate": {
+          "path": "matches!",
+          "url": "https://docs.rs/matches/latest/matches/macro.matches.html"
+        },
+        "std": {
+          "path": "std::matches!",
+          "url": "https://doc.rust-lang.org/std/macro.matches.html"
+        }
+      }
+    ],
+    "96": [
+      {
+        "crate": {
+          "path": "assert_matches!",
+          "url": "https://docs.rs/matches/latest/matches/macro.assert_matches.html"
+        },
+        "std": {
+          "path": "std::assert_matches!",
+          "url": "https://doc.rust-lang.org/std/macro.assert_matches.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "debug_assert_matches!",
+          "url": "https://docs.rs/matches/latest/matches/macro.debug_assert_matches.html"
+        },
+        "std": {
+          "path": "std::debug_assert_matches!",
+          "url": "https://doc.rust-lang.org/std/macro.debug_assert_matches.html"
+        }
+      }
+    ]
+  }
+}

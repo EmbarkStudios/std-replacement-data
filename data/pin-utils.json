@@ -1,0 +1,17 @@
+{
+  "stable": {
+    "68": [
+      {
+        "crate": {
+          "path": "pin_mut!",
+          "url": "https://docs.rs/pin-utils/latest/pin_utils/macro.pin_mut.html"
+        },
+        "note": "The unsafe_pinned! and unsafe_unpinned! functionality can be found in the pin-project and pin-project-lite crates",
+        "std": {
+          "path": "core::pin::pin!",
+          "url": "https://doc.rust-lang.org/core/pin/macro.pin.html"
+        }
+      }
+    ]
+  }
+}

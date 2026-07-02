@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "87": [
+      {
+        "crate": {
+          "path": "pipe",
+          "url": "https://docs.rs/os_pipe/latest/os_pipe/fn.pipe.html"
+        },
+        "std": {
+          "path": "std::io::pipe",
+          "url": "https://doc.rust-lang.org/std/io/fn.pipe.html"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "80": [
+      {
+        "crate": {
+          "path": "lazy_static!",
+          "url": "https://docs.rs/lazy_static/latest/lazy_static/"
+        },
+        "std": {
+          "path": "std::sync::LazyLock",
+          "url": "https://doc.rust-lang.org/std/sync/struct.LazyLock.html"
+        }
+      }
+    ]
+  }
+}

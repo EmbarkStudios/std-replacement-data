@@ -1,0 +1,42 @@
+{
+  "stable": {
+    "77": [
+      {
+        "crate": {
+          "path": "offset_of!",
+          "url": "https://docs.rs/memoffset/latest/memoffset/macro.offset_of.html"
+        },
+        "std": {
+          "path": "core::mem::offset_of!",
+          "url": "https://doc.rust-lang.org/core/mem/macro.offset_of.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "offset_of_tuple!",
+          "url": "https://docs.rs/memoffset/latest/memoffset/macro.offset_of_tuple.html"
+        },
+        "std": {
+          "path": "core::mem::offset_of!",
+          "url": "https://doc.rust-lang.org/core/mem/macro.offset_of.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "offset_of_union!",
+          "url": "https://docs.rs/memoffset/latest/memoffset/macro.offset_of_union.html"
+        },
+        "std": {
+          "path": "core::mem::offset_of!",
+          "url": "https://doc.rust-lang.org/core/mem/macro.offset_of.html"
+        }
+      }
+    ]
+  },
+  "unavailable": [
+    {
+      "path": "span_of!",
+      "url": "https://docs.rs/memoffset/latest/memoffset/macro.span_of.html"
+    }
+  ]
+}

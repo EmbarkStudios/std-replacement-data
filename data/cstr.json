@@ -1,0 +1,17 @@
+{
+  "stable": {
+    "77": [
+      {
+        "crate": {
+          "path": "cstr!",
+          "url": "https://docs.rs/cstr/latest/cstr/macro.cstr.html"
+        },
+        "note": "The identifier form `cstr!(name)` has no direct equivalent.",
+        "std": {
+          "path": "c\"...\"",
+          "url": "https://doc.rust-lang.org/reference/tokens.html#c-string-and-raw-c-string-literals"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "70": [
+      {
+        "crate": {
+          "path": "is_terminal",
+          "url": "https://docs.rs/is-terminal/latest/is_terminal/fn.is_terminal.html"
+        },
+        "std": {
+          "path": "std::io::IsTerminal",
+          "url": "https://doc.rust-lang.org/std/io/trait.IsTerminal.html"
+        }
+      }
+    ]
+  }
+}

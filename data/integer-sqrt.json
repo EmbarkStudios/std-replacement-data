@@ -1,0 +1,26 @@
+{
+  "stable": {
+    "84": [
+      {
+        "crate": {
+          "path": "IntegerSquareRoot::integer_sqrt",
+          "url": "https://docs.rs/integer-sqrt/latest/integer_sqrt/trait.IntegerSquareRoot.html#method.integer_sqrt"
+        },
+        "std": {
+          "path": "core::primitive::u32::isqrt",
+          "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.isqrt"
+        }
+      },
+      {
+        "crate": {
+          "path": "IntegerSquareRoot::integer_sqrt_checked",
+          "url": "https://docs.rs/integer-sqrt/latest/integer_sqrt/trait.IntegerSquareRoot.html#tymethod.integer_sqrt_checked"
+        },
+        "std": {
+          "path": "core::primitive::i32::checked_isqrt",
+          "url": "https://doc.rust-lang.org/core/primitive.i32.html#method.checked_isqrt"
+        }
+      }
+    ]
+  }
+}

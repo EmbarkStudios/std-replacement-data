@@ -1,0 +1,80 @@
+{
+  "stable": {
+    "84": [
+      {
+        "crate": {
+          "path": "Strict::addr",
+          "url": "https://docs.rs/sptr/latest/sptr/trait.Strict.html#tymethod.addr"
+        },
+        "std": {
+          "path": "core::primitive::pointer::addr",
+          "url": "https://doc.rust-lang.org/core/primitive.pointer.html#method.addr"
+        }
+      },
+      {
+        "crate": {
+          "path": "Strict::expose_addr",
+          "url": "https://docs.rs/sptr/latest/sptr/trait.Strict.html#tymethod.expose_addr"
+        },
+        "std": {
+          "path": "core::primitive::pointer::expose_provenance",
+          "url": "https://doc.rust-lang.org/core/primitive.pointer.html#method.expose_provenance"
+        }
+      },
+      {
+        "crate": {
+          "path": "Strict::with_addr",
+          "url": "https://docs.rs/sptr/latest/sptr/trait.Strict.html#tymethod.with_addr"
+        },
+        "std": {
+          "path": "core::primitive::pointer::with_addr",
+          "url": "https://doc.rust-lang.org/core/primitive.pointer.html#method.with_addr"
+        }
+      },
+      {
+        "crate": {
+          "path": "Strict::map_addr",
+          "url": "https://docs.rs/sptr/latest/sptr/trait.Strict.html#tymethod.map_addr"
+        },
+        "std": {
+          "path": "core::primitive::pointer::map_addr",
+          "url": "https://doc.rust-lang.org/core/primitive.pointer.html#method.map_addr"
+        }
+      },
+      {
+        "crate": {
+          "path": "from_exposed_addr",
+          "url": "https://docs.rs/sptr/latest/sptr/fn.from_exposed_addr.html"
+        },
+        "std": {
+          "path": "core::ptr::with_exposed_provenance",
+          "url": "https://doc.rust-lang.org/core/ptr/fn.with_exposed_provenance.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "from_exposed_addr_mut",
+          "url": "https://docs.rs/sptr/latest/sptr/fn.from_exposed_addr_mut.html"
+        },
+        "std": {
+          "path": "core::ptr::with_exposed_provenance_mut",
+          "url": "https://doc.rust-lang.org/core/ptr/fn.with_exposed_provenance_mut.html"
+        }
+      }
+    ]
+  },
+  "unavailable": [
+    {
+      "path": "int::iptr",
+      "url": "https://docs.rs/sptr/latest/sptr/int/struct.iptr.html"
+    },
+    {
+      "path": "int::uptr",
+      "url": "https://docs.rs/sptr/latest/sptr/int/struct.uptr.html"
+    },
+    {
+      "path": "func::OpaqueFnPtr",
+      "url": "https://docs.rs/sptr/latest/sptr/func/struct.OpaqueFnPtr.html"
+    }
+  ]
+}

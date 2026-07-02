@@ -1,0 +1,36 @@
+{
+  "stable": {
+    "66": [
+      {
+        "crate": {
+          "path": "BorrowedFd",
+          "url": "https://docs.rs/io-lifetimes/latest/io_lifetimes/struct.BorrowedFd.html"
+        },
+        "std": {
+          "path": "std::os::fd::BorrowedFd",
+          "url": "https://doc.rust-lang.org/std/os/fd/struct.BorrowedFd.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "OwnedFd",
+          "url": "https://docs.rs/io-lifetimes/latest/io_lifetimes/struct.OwnedFd.html"
+        },
+        "std": {
+          "path": "std::os::fd::OwnedFd",
+          "url": "https://doc.rust-lang.org/std/os/fd/struct.OwnedFd.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "AsFd",
+          "url": "https://docs.rs/io-lifetimes/latest/io_lifetimes/trait.AsFd.html"
+        },
+        "std": {
+          "path": "std::os::fd::AsFd",
+          "url": "https://doc.rust-lang.org/std/os/fd/trait.AsFd.html"
+        }
+      }
+    ]
+  }
+}

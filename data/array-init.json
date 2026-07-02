@@ -1,0 +1,42 @@
+{
+  "stable": {
+    "63": [
+      {
+        "crate": {
+          "path": "array_init",
+          "url": "https://docs.rs/array-init/latest/array_init/fn.array_init.html"
+        },
+        "std": {
+          "path": "core::array::from_fn",
+          "url": "https://doc.rust-lang.org/core/array/fn.from_fn.html"
+        }
+      }
+    ]
+  },
+  "unavailable": [
+    {
+      "path": "from_iter",
+      "url": "https://docs.rs/array-init/latest/array_init/fn.from_iter.html"
+    },
+    {
+      "path": "from_iter_reversed",
+      "url": "https://docs.rs/array-init/latest/array_init/fn.from_iter_reversed.html"
+    },
+    {
+      "path": "map_array_init",
+      "url": "https://docs.rs/array-init/latest/array_init/fn.map_array_init.html"
+    }
+  ],
+  "unstable": [
+    {
+      "crate": {
+        "path": "try_array_init",
+        "url": "https://docs.rs/array-init/latest/array_init/fn.try_array_init.html"
+      },
+      "std": {
+        "path": "core::array::try_from_fn",
+        "url": "https://doc.rust-lang.org/core/array/fn.try_from_fn.html"
+      }
+    }
+  ]
+}

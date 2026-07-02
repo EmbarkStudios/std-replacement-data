@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "34": [
+      {
+        "crate": {
+          "path": "Void",
+          "url": "https://docs.rs/void/latest/void/enum.Void.html"
+        },
+        "std": {
+          "path": "core::convert::Infallible",
+          "url": "https://doc.rust-lang.org/core/convert/enum.Infallible.html"
+        }
+      }
+    ]
+  }
+}

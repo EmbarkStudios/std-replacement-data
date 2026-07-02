@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "70": [
+      {
+        "crate": {
+          "path": "is",
+          "url": "https://docs.rs/atty/latest/atty/fn.is.html"
+        },
+        "std": {
+          "path": "std::io::IsTerminal",
+          "url": "https://doc.rust-lang.org/std/io/trait.IsTerminal.html"
+        }
+      }
+    ]
+  }
+}
