@@ -1,0 +1,847 @@
+{
+  "array-init": {
+    "stable": {
+      "63": [
+        {
+          "crate": {
+            "path": "array_init",
+            "url": "https://docs.rs/array-init/latest/array_init/fn.array_init.html"
+          },
+          "std": {
+            "path": "core::array::from_fn",
+            "url": "https://doc.rust-lang.org/core/array/fn.from_fn.html"
+          }
+        }
+      ]
+    },
+    "unavailable": [
+      {
+        "path": "from_iter",
+        "url": "https://docs.rs/array-init/latest/array_init/fn.from_iter.html"
+      },
+      {
+        "path": "from_iter_reversed",
+        "url": "https://docs.rs/array-init/latest/array_init/fn.from_iter_reversed.html"
+      },
+      {
+        "path": "map_array_init",
+        "url": "https://docs.rs/array-init/latest/array_init/fn.map_array_init.html"
+      }
+    ],
+    "unstable": [
+      {
+        "crate": {
+          "path": "try_array_init",
+          "url": "https://docs.rs/array-init/latest/array_init/fn.try_array_init.html"
+        },
+        "std": {
+          "path": "core::array::try_from_fn",
+          "url": "https://doc.rust-lang.org/core/array/fn.try_from_fn.html"
+        }
+      }
+    ]
+  },
+  "assert_matches": {
+    "stable": {
+      "96": [
+        {
+          "crate": {
+            "path": "assert_matches!",
+            "url": "https://docs.rs/assert_matches/latest/assert_matches/macro.assert_matches.html"
+          },
+          "note": "The crate's `=> arm` form, which yields a value or runs extra assertions on the bindings, has no `std` equivalent.",
+          "std": {
+            "path": "std::assert_matches!",
+            "url": "https://doc.rust-lang.org/std/macro.assert_matches.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "debug_assert_matches!",
+            "url": "https://docs.rs/assert_matches/latest/assert_matches/macro.debug_assert_matches.html"
+          },
+          "note": "The crate's `=> arm` form, which yields a value or runs extra assertions on the bindings, has no `std` equivalent.",
+          "std": {
+            "path": "std::debug_assert_matches!",
+            "url": "https://doc.rust-lang.org/std/macro.debug_assert_matches.html"
+          }
+        }
+      ]
+    }
+  },
+  "atty": {
+    "stable": {
+      "70": [
+        {
+          "crate": {
+            "path": "is",
+            "url": "https://docs.rs/atty/latest/atty/fn.is.html"
+          },
+          "std": {
+            "path": "std::io::IsTerminal",
+            "url": "https://doc.rust-lang.org/std/io/trait.IsTerminal.html"
+          }
+        }
+      ]
+    }
+  },
+  "cfg-if": {
+    "stable": {
+      "95": [
+        {
+          "crate": {
+            "path": "cfg_if!",
+            "url": "https://docs.rs/cfg-if/latest/cfg_if/macro.cfg_if.html"
+          },
+          "std": {
+            "path": "std::cfg_select!",
+            "url": "https://doc.rust-lang.org/std/macro.cfg_select.html"
+          }
+        }
+      ]
+    }
+  },
+  "clamp": {
+    "stable": {
+      "70": [
+        {
+          "crate": {
+            "path": "clamp",
+            "url": "https://docs.rs/clamp/latest/clamp/fn.clamp.html"
+          },
+          "std": {
+            "path": "core::Ord::clamp, core::f32::clamp, core::f64::clamp",
+            "url": "https://doc.rust-lang.org/core/cmp/trait.Ord.html#method.clamp"
+          }
+        }
+      ]
+    }
+  },
+  "cstr": {
+    "stable": {
+      "77": [
+        {
+          "crate": {
+            "path": "cstr!",
+            "url": "https://docs.rs/cstr/latest/cstr/macro.cstr.html"
+          },
+          "note": "The identifier form `cstr!(name)` has no direct equivalent.",
+          "std": {
+            "path": "c\"...\"",
+            "url": "https://doc.rust-lang.org/reference/tokens.html#c-string-and-raw-c-string-literals"
+          }
+        }
+      ]
+    }
+  },
+  "cstr_core": {
+    "stable": {
+      "64": [
+        {
+          "crate": {
+            "path": "CStr",
+            "url": "https://docs.rs/cstr_core/latest/cstr_core/struct.CStr.html"
+          },
+          "note": "Moved from std to core, allowing `no_std` usage",
+          "std": {
+            "path": "core::ffi::CStr",
+            "url": "https://doc.rust-lang.org/core/ffi/struct.CStr.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "CString",
+            "url": "https://docs.rs/cstr_core/latest/cstr_core/struct.CString.html"
+          },
+          "note": "Moved from std to core, allowing `no_std` usage",
+          "std": {
+            "path": "alloc::ffi::CString",
+            "url": "https://doc.rust-lang.org/alloc/ffi/struct.CString.html"
+          }
+        }
+      ]
+    }
+  },
+  "cty": {
+    "stable": {
+      "64": [
+        {
+          "crate": {
+            "path": "cty::*",
+            "url": "https://docs.rs/cty/latest/cty/"
+          },
+          "note": "The C99 `int32_t`/`size_t`-style aliases have no stable equivalent.",
+          "std": {
+            "path": "core::ffi",
+            "url": "https://doc.rust-lang.org/core/ffi/index.html"
+          }
+        }
+      ]
+    }
+  },
+  "home": {
+    "stable": {
+      "87": [
+        {
+          "crate": {
+            "path": "home_dir",
+            "url": "https://docs.rs/home/latest/home/fn.home_dir.html"
+          },
+          "note": "This function was fixed and un-deprecated",
+          "std": {
+            "path": "std::env::home_dir",
+            "url": "https://doc.rust-lang.org/std/env/fn.home_dir.html"
+          }
+        }
+      ]
+    },
+    "unavailable": [
+      {
+        "path": "cargo_home",
+        "url": "https://docs.rs/home/latest/home/fn.cargo_home.html"
+      },
+      {
+        "path": "rustup_home",
+        "url": "https://docs.rs/home/latest/home/fn.rustup_home.html"
+      }
+    ]
+  },
+  "ilog": {
+    "stable": {
+      "67": [
+        {
+          "crate": {
+            "path": "IntLog::log2",
+            "url": "https://docs.rs/ilog/latest/ilog/trait.IntLog.html#tymethod.log2"
+          },
+          "std": {
+            "path": "core::primitive::u32::ilog2",
+            "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.ilog2"
+          }
+        },
+        {
+          "crate": {
+            "path": "IntLog::log10",
+            "url": "https://docs.rs/ilog/latest/ilog/trait.IntLog.html#tymethod.log10"
+          },
+          "std": {
+            "path": "core::primitive::u32::ilog10",
+            "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.ilog10"
+          }
+        },
+        {
+          "crate": {
+            "path": "IntLog::checked_log2",
+            "url": "https://docs.rs/ilog/latest/ilog/trait.IntLog.html#tymethod.checked_log2"
+          },
+          "std": {
+            "path": "core::primitive::u32::checked_ilog2",
+            "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.checked_ilog2"
+          }
+        },
+        {
+          "crate": {
+            "path": "IntLog::checked_log10",
+            "url": "https://docs.rs/ilog/latest/ilog/trait.IntLog.html#tymethod.checked_log10"
+          },
+          "std": {
+            "path": "core::primitive::u32::checked_ilog10",
+            "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.checked_ilog10"
+          }
+        }
+      ]
+    }
+  },
+  "integer-sqrt": {
+    "stable": {
+      "84": [
+        {
+          "crate": {
+            "path": "IntegerSquareRoot::integer_sqrt",
+            "url": "https://docs.rs/integer-sqrt/latest/integer_sqrt/trait.IntegerSquareRoot.html#method.integer_sqrt"
+          },
+          "std": {
+            "path": "core::primitive::u32::isqrt",
+            "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.isqrt"
+          }
+        },
+        {
+          "crate": {
+            "path": "IntegerSquareRoot::integer_sqrt_checked",
+            "url": "https://docs.rs/integer-sqrt/latest/integer_sqrt/trait.IntegerSquareRoot.html#tymethod.integer_sqrt_checked"
+          },
+          "std": {
+            "path": "core::primitive::i32::checked_isqrt",
+            "url": "https://doc.rust-lang.org/core/primitive.i32.html#method.checked_isqrt"
+          }
+        }
+      ]
+    }
+  },
+  "io-lifetimes": {
+    "stable": {
+      "66": [
+        {
+          "crate": {
+            "path": "BorrowedFd",
+            "url": "https://docs.rs/io-lifetimes/latest/io_lifetimes/struct.BorrowedFd.html"
+          },
+          "std": {
+            "path": "std::os::fd::BorrowedFd",
+            "url": "https://doc.rust-lang.org/std/os/fd/struct.BorrowedFd.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "OwnedFd",
+            "url": "https://docs.rs/io-lifetimes/latest/io_lifetimes/struct.OwnedFd.html"
+          },
+          "std": {
+            "path": "std::os::fd::OwnedFd",
+            "url": "https://doc.rust-lang.org/std/os/fd/struct.OwnedFd.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "AsFd",
+            "url": "https://docs.rs/io-lifetimes/latest/io_lifetimes/trait.AsFd.html"
+          },
+          "std": {
+            "path": "std::os::fd::AsFd",
+            "url": "https://doc.rust-lang.org/std/os/fd/trait.AsFd.html"
+          }
+        }
+      ]
+    }
+  },
+  "is-terminal": {
+    "stable": {
+      "70": [
+        {
+          "crate": {
+            "path": "is_terminal",
+            "url": "https://docs.rs/is-terminal/latest/is_terminal/fn.is_terminal.html"
+          },
+          "std": {
+            "path": "std::io::IsTerminal",
+            "url": "https://doc.rust-lang.org/std/io/trait.IsTerminal.html"
+          }
+        }
+      ]
+    }
+  },
+  "is_sorted": {
+    "stable": {
+      "82": [
+        {
+          "crate": {
+            "path": "IsSorted::is_sorted",
+            "url": "https://docs.rs/is_sorted/latest/is_sorted/trait.IsSorted.html#method.is_sorted"
+          },
+          "std": {
+            "path": "core::iter::Iterator::is_sorted",
+            "url": "https://doc.rust-lang.org/core/iter/trait.Iterator.html#method.is_sorted"
+          }
+        },
+        {
+          "crate": {
+            "path": "IsSorted::is_sorted_by",
+            "url": "https://docs.rs/is_sorted/latest/is_sorted/trait.IsSorted.html#method.is_sorted_by"
+          },
+          "std": {
+            "path": "core::iter::Iterator::is_sorted_by",
+            "url": "https://doc.rust-lang.org/core/iter/trait.Iterator.html#method.is_sorted_by"
+          }
+        },
+        {
+          "crate": {
+            "path": "IsSorted::is_sorted_by_key",
+            "url": "https://docs.rs/is_sorted/latest/is_sorted/trait.IsSorted.html#method.is_sorted_by_key"
+          },
+          "std": {
+            "path": "core::iter::Iterator::is_sorted_by_key",
+            "url": "https://doc.rust-lang.org/core/iter/trait.Iterator.html#method.is_sorted_by_key"
+          }
+        }
+      ]
+    },
+    "unavailable": [
+      {
+        "path": "IsSorted::is_sorted_until_by",
+        "url": "https://docs.rs/is_sorted/latest/is_sorted/trait.IsSorted.html#method.is_sorted_until_by"
+      }
+    ]
+  },
+  "lazy_static": {
+    "stable": {
+      "80": [
+        {
+          "crate": {
+            "path": "lazy_static!",
+            "url": "https://docs.rs/lazy_static/latest/lazy_static/"
+          },
+          "std": {
+            "path": "std::sync::LazyLock",
+            "url": "https://doc.rust-lang.org/std/sync/struct.LazyLock.html"
+          }
+        }
+      ]
+    }
+  },
+  "lazycell": {
+    "stable": {
+      "70": [
+        {
+          "crate": {
+            "path": "LazyCell",
+            "url": "https://docs.rs/lazycell/latest/lazycell/struct.LazyCell.html"
+          },
+          "std": {
+            "path": "std::cell::OnceCell",
+            "url": "https://doc.rust-lang.org/std/cell/struct.OnceCell.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "LazyCell",
+            "url": "https://docs.rs/lazycell/latest/lazycell/struct.LazyCell.html"
+          },
+          "std": {
+            "path": "std::cell::LazyCell",
+            "url": "https://doc.rust-lang.org/std/cell/struct.LazyCell.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "AtomicLazyCell",
+            "url": "https://docs.rs/lazycell/latest/lazycell/struct.AtomicLazyCell.html"
+          },
+          "std": {
+            "path": "std::cell::OnceLock",
+            "url": "https://doc.rust-lang.org/std/sync/struct.OnceLock.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "AtomicLazyCell",
+            "url": "https://docs.rs/lazycell/latest/lazycell/struct.AtomicLazyCell.html"
+          },
+          "std": {
+            "path": "std::sync::LazyLock",
+            "url": "https://doc.rust-lang.org/std/sync/struct.LazyLock.html"
+          }
+        }
+      ]
+    }
+  },
+  "matches": {
+    "stable": {
+      "42": [
+        {
+          "crate": {
+            "path": "matches!",
+            "url": "https://docs.rs/matches/latest/matches/macro.matches.html"
+          },
+          "std": {
+            "path": "std::matches!",
+            "url": "https://doc.rust-lang.org/std/macro.matches.html"
+          }
+        }
+      ],
+      "96": [
+        {
+          "crate": {
+            "path": "assert_matches!",
+            "url": "https://docs.rs/matches/latest/matches/macro.assert_matches.html"
+          },
+          "std": {
+            "path": "std::assert_matches!",
+            "url": "https://doc.rust-lang.org/std/macro.assert_matches.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "debug_assert_matches!",
+            "url": "https://docs.rs/matches/latest/matches/macro.debug_assert_matches.html"
+          },
+          "std": {
+            "path": "std::debug_assert_matches!",
+            "url": "https://doc.rust-lang.org/std/macro.debug_assert_matches.html"
+          }
+        }
+      ]
+    }
+  },
+  "maybe-uninit": {
+    "stable": {
+      "36": [
+        {
+          "crate": {
+            "path": "MaybeUninit",
+            "url": "https://docs.rs/maybe-uninit/latest/maybe_uninit/union.MaybeUninit.html"
+          },
+          "std": {
+            "path": "std::mem::MaybeUninit",
+            "url": "https://doc.rust-lang.org/std/mem/union.MaybeUninit.html"
+          }
+        }
+      ]
+    }
+  },
+  "memoffset": {
+    "stable": {
+      "77": [
+        {
+          "crate": {
+            "path": "offset_of!",
+            "url": "https://docs.rs/memoffset/latest/memoffset/macro.offset_of.html"
+          },
+          "std": {
+            "path": "core::mem::offset_of!",
+            "url": "https://doc.rust-lang.org/core/mem/macro.offset_of.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "offset_of_tuple!",
+            "url": "https://docs.rs/memoffset/latest/memoffset/macro.offset_of_tuple.html"
+          },
+          "std": {
+            "path": "core::mem::offset_of!",
+            "url": "https://doc.rust-lang.org/core/mem/macro.offset_of.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "offset_of_union!",
+            "url": "https://docs.rs/memoffset/latest/memoffset/macro.offset_of_union.html"
+          },
+          "std": {
+            "path": "core::mem::offset_of!",
+            "url": "https://doc.rust-lang.org/core/mem/macro.offset_of.html"
+          }
+        }
+      ]
+    },
+    "unavailable": [
+      {
+        "path": "span_of!",
+        "url": "https://docs.rs/memoffset/latest/memoffset/macro.span_of.html"
+      }
+    ]
+  },
+  "no-std-net": {
+    "stable": {
+      "77": [
+        {
+          "crate": {
+            "path": "Ipv4Addr",
+            "url": "https://docs.rs/no-std-net/latest/no_std_net/struct.Ipv4Addr.html"
+          },
+          "std": {
+            "path": "core::net::Ipv4Addr",
+            "url": "https://doc.rust-lang.org/core/net/struct.Ipv4Addr.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "Ipv6ddr",
+            "url": "https://docs.rs/no-std-net/latest/no_std_net/struct.Ipv6Addr.html"
+          },
+          "std": {
+            "path": "core::net::Ipv6Addr",
+            "url": "https://doc.rust-lang.org/core/net/struct.Ipv6Addr.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "SocketAddrV4",
+            "url": "https://docs.rs/no-std-net/latest/no_std_net/struct.SocketAddrV4.html"
+          },
+          "std": {
+            "path": "core::net::SocketAddrV4",
+            "url": "https://doc.rust-lang.org/core/net/struct.SocketAddrV4.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "SocketAddrV6",
+            "url": "https://docs.rs/no-std-net/latest/no_std_net/struct.SocketAddrV6.html"
+          },
+          "std": {
+            "path": "core::net::SocketAddrV6",
+            "url": "https://doc.rust-lang.org/core/net/struct.SocketAddrV6.html"
+          }
+        }
+      ]
+    },
+    "unavailable": [
+      {
+        "path": "ToSocketAddrs",
+        "url": "https://docs.rs/no-std-net/latest/no_std_net/trait.ToSocketAddrs.html"
+      }
+    ]
+  },
+  "nodrop": {
+    "stable": {
+      "20": [
+        {
+          "crate": {
+            "path": "NoDrop",
+            "url": "https://docs.rs/nodrop/latest/nodrop/struct.NoDrop.html"
+          },
+          "std": {
+            "path": "core::mem::ManuallyDrop",
+            "url": "https://doc.rust-lang.org/core/mem/struct.ManuallyDrop.html"
+          }
+        }
+      ]
+    }
+  },
+  "num_cpus": {
+    "stable": {
+      "59": [
+        {
+          "crate": {
+            "path": "get",
+            "url": "https://docs.rs/num_cpus/latest/num_cpus/fn.get.html"
+          },
+          "note": "The std function does not distinguish between physical and logical cores as num_cpus can",
+          "std": {
+            "path": "std::thread::available_parallelism",
+            "url": "https://doc.rust-lang.org/std/thread/fn.available_parallelism.html"
+          }
+        }
+      ]
+    },
+    "unavailable": [
+      {
+        "path": "get_physical",
+        "url": "https://docs.rs/num_cpus/latest/num_cpus/fn.get_physical.html"
+      }
+    ]
+  },
+  "once_cell": {
+    "stable": {
+      "70": [
+        {
+          "crate": {
+            "path": "sync::OnceCell",
+            "url": "https://docs.rs/once_cell/latest/once_cell/sync/struct.OnceCell.html"
+          },
+          "std": {
+            "path": "std::sync::OnceLock",
+            "url": "https://doc.rust-lang.org/std/sync/struct.OnceLock.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "sync::Lazy",
+            "url": "https://docs.rs/once_cell/latest/once_cell/sync/struct.Lazy.html"
+          },
+          "std": {
+            "path": "std::sync::LazyLock",
+            "url": "https://doc.rust-lang.org/std/sync/struct.LazyLock.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "unsync::OnceCell",
+            "url": "https://docs.rs/once_cell/latest/once_cell/unsync/struct.OnceCell.html"
+          },
+          "std": {
+            "path": "std::cell::OnceCell",
+            "url": "https://doc.rust-lang.org/std/cell/struct.OnceCell.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "unsync::Lazy",
+            "url": "https://docs.rs/once_cell/latest/once_cell/unsync/struct.Lazy.html"
+          },
+          "std": {
+            "path": "std::cell::LazyCell",
+            "url": "https://doc.rust-lang.org/std/cell/struct.LazyCell.html"
+          }
+        }
+      ]
+    },
+    "unstable": [
+      {
+        "crate": {
+          "path": "sync::OnceCell::get_or_try_init",
+          "url": "https://docs.rs/once_cell/latest/once_cell/sync/struct.OnceCell.html#method.get_or_try_init"
+        },
+        "std": {
+          "path": "std::sync::OnceLock::get_or_try_init",
+          "url": "https://doc.rust-lang.org/std/sync/struct.OnceLock.html#method.get_or_try_init"
+        }
+      },
+      {
+        "crate": {
+          "path": "unsync::OnceCell::get_or_try_init",
+          "url": "https://docs.rs/once_cell/latest/once_cell/unsync/struct.OnceCell.html#method.get_or_try_init"
+        },
+        "std": {
+          "path": "std::cell::OnceCell::get_or_try_init",
+          "url": "https://doc.rust-lang.org/std/cell/struct.OnceCell.html#method.get_or_try_init"
+        }
+      }
+    ]
+  },
+  "os_pipe": {
+    "stable": {
+      "87": [
+        {
+          "crate": {
+            "path": "pipe",
+            "url": "https://docs.rs/os_pipe/latest/os_pipe/fn.pipe.html"
+          },
+          "std": {
+            "path": "std::io::pipe",
+            "url": "https://doc.rust-lang.org/std/io/fn.pipe.html"
+          }
+        }
+      ]
+    }
+  },
+  "pin-utils": {
+    "stable": {
+      "68": [
+        {
+          "crate": {
+            "path": "pin_mut!",
+            "url": "https://docs.rs/pin-utils/latest/pin_utils/macro.pin_mut.html"
+          },
+          "note": "The unsafe_pinned! and unsafe_unpinned! functionality can be found in the pin-project and pin-project-lite crates",
+          "std": {
+            "path": "core::pin::pin!",
+            "url": "https://doc.rust-lang.org/core/pin/macro.pin.html"
+          }
+        }
+      ]
+    }
+  },
+  "retain_mut": {
+    "stable": {
+      "61": [
+        {
+          "crate": {
+            "path": "Vec::retain_mut",
+            "url": "https://docs.rs/retain_mut/latest/retain_mut/trait.RetainMut.html"
+          },
+          "std": {
+            "path": "alloc::vec::Vec::retain_mut",
+            "url": "https://doc.rust-lang.org/alloc/vec/struct.Vec.html#method.retain_mut"
+          }
+        },
+        {
+          "crate": {
+            "path": "VecDeque::retain_mut",
+            "url": "https://docs.rs/retain_mut/latest/retain_mut/trait.RetainMut.html"
+          },
+          "std": {
+            "path": "alloc::collections::vec_deque::VecDeque::retain_mut",
+            "url": "https://doc.rust-lang.org/alloc/collections/vec_deque/struct.VecDeque.html#method.retain_mut"
+          }
+        }
+      ]
+    }
+  },
+  "sptr": {
+    "stable": {
+      "84": [
+        {
+          "crate": {
+            "path": "Strict::addr",
+            "url": "https://docs.rs/sptr/latest/sptr/trait.Strict.html#tymethod.addr"
+          },
+          "std": {
+            "path": "core::primitive::pointer::addr",
+            "url": "https://doc.rust-lang.org/core/primitive.pointer.html#method.addr"
+          }
+        },
+        {
+          "crate": {
+            "path": "Strict::expose_addr",
+            "url": "https://docs.rs/sptr/latest/sptr/trait.Strict.html#tymethod.expose_addr"
+          },
+          "std": {
+            "path": "core::primitive::pointer::expose_provenance",
+            "url": "https://doc.rust-lang.org/core/primitive.pointer.html#method.expose_provenance"
+          }
+        },
+        {
+          "crate": {
+            "path": "Strict::with_addr",
+            "url": "https://docs.rs/sptr/latest/sptr/trait.Strict.html#tymethod.with_addr"
+          },
+          "std": {
+            "path": "core::primitive::pointer::with_addr",
+            "url": "https://doc.rust-lang.org/core/primitive.pointer.html#method.with_addr"
+          }
+        },
+        {
+          "crate": {
+            "path": "Strict::map_addr",
+            "url": "https://docs.rs/sptr/latest/sptr/trait.Strict.html#tymethod.map_addr"
+          },
+          "std": {
+            "path": "core::primitive::pointer::map_addr",
+            "url": "https://doc.rust-lang.org/core/primitive.pointer.html#method.map_addr"
+          }
+        },
+        {
+          "crate": {
+            "path": "from_exposed_addr",
+            "url": "https://docs.rs/sptr/latest/sptr/fn.from_exposed_addr.html"
+          },
+          "std": {
+            "path": "core::ptr::with_exposed_provenance",
+            "url": "https://doc.rust-lang.org/core/ptr/fn.with_exposed_provenance.html"
+          }
+        },
+        {
+          "crate": {
+            "path": "from_exposed_addr_mut",
+            "url": "https://docs.rs/sptr/latest/sptr/fn.from_exposed_addr_mut.html"
+          },
+          "std": {
+            "path": "core::ptr::with_exposed_provenance_mut",
+            "url": "https://doc.rust-lang.org/core/ptr/fn.with_exposed_provenance_mut.html"
+          }
+        }
+      ]
+    },
+    "unavailable": [
+      {
+        "path": "int::iptr",
+        "url": "https://docs.rs/sptr/latest/sptr/int/struct.iptr.html"
+      },
+      {
+        "path": "int::uptr",
+        "url": "https://docs.rs/sptr/latest/sptr/int/struct.uptr.html"
+      },
+      {
+        "path": "func::OpaqueFnPtr",
+        "url": "https://docs.rs/sptr/latest/sptr/func/struct.OpaqueFnPtr.html"
+      }
+    ]
+  },
+  "void": {
+    "stable": {
+      "34": [
+        {
+          "crate": {
+            "path": "Void",
+            "url": "https://docs.rs/void/latest/void/enum.Void.html"
+          },
+          "std": {
+            "path": "core::convert::Infallible",
+            "url": "https://doc.rust-lang.org/core/convert/enum.Infallible.html"
+          }
+        }
+      ]
+    }
+  }
+}
