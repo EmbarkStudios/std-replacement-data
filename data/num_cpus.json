@@ -1,0 +1,23 @@
+{
+  "stable": {
+    "59": [
+      {
+        "crate": {
+          "path": "get",
+          "url": "https://docs.rs/num_cpus/latest/num_cpus/fn.get.html"
+        },
+        "note": "The std function does not distinguish between physical and logical cores as num_cpus can",
+        "std": {
+          "path": "std::thread::available_parallelism",
+          "url": "https://doc.rust-lang.org/std/thread/fn.available_parallelism.html"
+        }
+      }
+    ]
+  },
+  "unavailable": [
+    {
+      "path": "get_physical",
+      "url": "https://docs.rs/num_cpus/latest/num_cpus/fn.get_physical.html"
+    }
+  ]
+}

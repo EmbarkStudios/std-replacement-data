@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "70": [
+      {
+        "crate": {
+          "path": "clamp",
+          "url": "https://docs.rs/clamp/latest/clamp/fn.clamp.html"
+        },
+        "std": {
+          "path": "core::Ord::clamp, core::f32::clamp, core::f64::clamp",
+          "url": "https://doc.rust-lang.org/core/cmp/trait.Ord.html#method.clamp"
+        }
+      }
+    ]
+  }
+}

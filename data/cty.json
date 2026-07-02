@@ -1,0 +1,17 @@
+{
+  "stable": {
+    "64": [
+      {
+        "crate": {
+          "path": "cty::*",
+          "url": "https://docs.rs/cty/latest/cty/"
+        },
+        "note": "The C99 `int32_t`/`size_t`-style aliases have no stable equivalent.",
+        "std": {
+          "path": "core::ffi",
+          "url": "https://doc.rust-lang.org/core/ffi/index.html"
+        }
+      }
+    ]
+  }
+}

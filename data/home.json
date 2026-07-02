@@ -1,0 +1,27 @@
+{
+  "stable": {
+    "87": [
+      {
+        "crate": {
+          "path": "home_dir",
+          "url": "https://docs.rs/home/latest/home/fn.home_dir.html"
+        },
+        "note": "This function was fixed and un-deprecated",
+        "std": {
+          "path": "std::env::home_dir",
+          "url": "https://doc.rust-lang.org/std/env/fn.home_dir.html"
+        }
+      }
+    ]
+  },
+  "unavailable": [
+    {
+      "path": "cargo_home",
+      "url": "https://docs.rs/home/latest/home/fn.cargo_home.html"
+    },
+    {
+      "path": "rustup_home",
+      "url": "https://docs.rs/home/latest/home/fn.rustup_home.html"
+    }
+  ]
+}

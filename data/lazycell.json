@@ -1,0 +1,46 @@
+{
+  "stable": {
+    "70": [
+      {
+        "crate": {
+          "path": "LazyCell",
+          "url": "https://docs.rs/lazycell/latest/lazycell/struct.LazyCell.html"
+        },
+        "std": {
+          "path": "std::cell::OnceCell",
+          "url": "https://doc.rust-lang.org/std/cell/struct.OnceCell.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "LazyCell",
+          "url": "https://docs.rs/lazycell/latest/lazycell/struct.LazyCell.html"
+        },
+        "std": {
+          "path": "std::cell::LazyCell",
+          "url": "https://doc.rust-lang.org/std/cell/struct.LazyCell.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "AtomicLazyCell",
+          "url": "https://docs.rs/lazycell/latest/lazycell/struct.AtomicLazyCell.html"
+        },
+        "std": {
+          "path": "std::cell::OnceLock",
+          "url": "https://doc.rust-lang.org/std/sync/struct.OnceLock.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "AtomicLazyCell",
+          "url": "https://docs.rs/lazycell/latest/lazycell/struct.AtomicLazyCell.html"
+        },
+        "std": {
+          "path": "std::sync::LazyLock",
+          "url": "https://doc.rust-lang.org/std/sync/struct.LazyLock.html"
+        }
+      }
+    ]
+  }
+}

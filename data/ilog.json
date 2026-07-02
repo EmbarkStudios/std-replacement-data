@@ -1,0 +1,46 @@
+{
+  "stable": {
+    "67": [
+      {
+        "crate": {
+          "path": "IntLog::log2",
+          "url": "https://docs.rs/ilog/latest/ilog/trait.IntLog.html#tymethod.log2"
+        },
+        "std": {
+          "path": "core::primitive::u32::ilog2",
+          "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.ilog2"
+        }
+      },
+      {
+        "crate": {
+          "path": "IntLog::log10",
+          "url": "https://docs.rs/ilog/latest/ilog/trait.IntLog.html#tymethod.log10"
+        },
+        "std": {
+          "path": "core::primitive::u32::ilog10",
+          "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.ilog10"
+        }
+      },
+      {
+        "crate": {
+          "path": "IntLog::checked_log2",
+          "url": "https://docs.rs/ilog/latest/ilog/trait.IntLog.html#tymethod.checked_log2"
+        },
+        "std": {
+          "path": "core::primitive::u32::checked_ilog2",
+          "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.checked_ilog2"
+        }
+      },
+      {
+        "crate": {
+          "path": "IntLog::checked_log10",
+          "url": "https://docs.rs/ilog/latest/ilog/trait.IntLog.html#tymethod.checked_log10"
+        },
+        "std": {
+          "path": "core::primitive::u32::checked_ilog10",
+          "url": "https://doc.rust-lang.org/core/primitive.u32.html#method.checked_ilog10"
+        }
+      }
+    ]
+  }
+}

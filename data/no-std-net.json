@@ -1,0 +1,52 @@
+{
+  "stable": {
+    "77": [
+      {
+        "crate": {
+          "path": "Ipv4Addr",
+          "url": "https://docs.rs/no-std-net/latest/no_std_net/struct.Ipv4Addr.html"
+        },
+        "std": {
+          "path": "core::net::Ipv4Addr",
+          "url": "https://doc.rust-lang.org/core/net/struct.Ipv4Addr.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "Ipv6ddr",
+          "url": "https://docs.rs/no-std-net/latest/no_std_net/struct.Ipv6Addr.html"
+        },
+        "std": {
+          "path": "core::net::Ipv6Addr",
+          "url": "https://doc.rust-lang.org/core/net/struct.Ipv6Addr.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "SocketAddrV4",
+          "url": "https://docs.rs/no-std-net/latest/no_std_net/struct.SocketAddrV4.html"
+        },
+        "std": {
+          "path": "core::net::SocketAddrV4",
+          "url": "https://doc.rust-lang.org/core/net/struct.SocketAddrV4.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "SocketAddrV6",
+          "url": "https://docs.rs/no-std-net/latest/no_std_net/struct.SocketAddrV6.html"
+        },
+        "std": {
+          "path": "core::net::SocketAddrV6",
+          "url": "https://doc.rust-lang.org/core/net/struct.SocketAddrV6.html"
+        }
+      }
+    ]
+  },
+  "unavailable": [
+    {
+      "path": "ToSocketAddrs",
+      "url": "https://docs.rs/no-std-net/latest/no_std_net/trait.ToSocketAddrs.html"
+    }
+  ]
+}

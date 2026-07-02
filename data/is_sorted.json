@@ -1,0 +1,42 @@
+{
+  "stable": {
+    "82": [
+      {
+        "crate": {
+          "path": "IsSorted::is_sorted",
+          "url": "https://docs.rs/is_sorted/latest/is_sorted/trait.IsSorted.html#method.is_sorted"
+        },
+        "std": {
+          "path": "core::iter::Iterator::is_sorted",
+          "url": "https://doc.rust-lang.org/core/iter/trait.Iterator.html#method.is_sorted"
+        }
+      },
+      {
+        "crate": {
+          "path": "IsSorted::is_sorted_by",
+          "url": "https://docs.rs/is_sorted/latest/is_sorted/trait.IsSorted.html#method.is_sorted_by"
+        },
+        "std": {
+          "path": "core::iter::Iterator::is_sorted_by",
+          "url": "https://doc.rust-lang.org/core/iter/trait.Iterator.html#method.is_sorted_by"
+        }
+      },
+      {
+        "crate": {
+          "path": "IsSorted::is_sorted_by_key",
+          "url": "https://docs.rs/is_sorted/latest/is_sorted/trait.IsSorted.html#method.is_sorted_by_key"
+        },
+        "std": {
+          "path": "core::iter::Iterator::is_sorted_by_key",
+          "url": "https://doc.rust-lang.org/core/iter/trait.Iterator.html#method.is_sorted_by_key"
+        }
+      }
+    ]
+  },
+  "unavailable": [
+    {
+      "path": "IsSorted::is_sorted_until_by",
+      "url": "https://docs.rs/is_sorted/latest/is_sorted/trait.IsSorted.html#method.is_sorted_until_by"
+    }
+  ]
+}

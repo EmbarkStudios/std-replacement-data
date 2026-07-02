@@ -1,0 +1,68 @@
+{
+  "stable": {
+    "70": [
+      {
+        "crate": {
+          "path": "sync::OnceCell",
+          "url": "https://docs.rs/once_cell/latest/once_cell/sync/struct.OnceCell.html"
+        },
+        "std": {
+          "path": "std::sync::OnceLock",
+          "url": "https://doc.rust-lang.org/std/sync/struct.OnceLock.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "sync::Lazy",
+          "url": "https://docs.rs/once_cell/latest/once_cell/sync/struct.Lazy.html"
+        },
+        "std": {
+          "path": "std::sync::LazyLock",
+          "url": "https://doc.rust-lang.org/std/sync/struct.LazyLock.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "unsync::OnceCell",
+          "url": "https://docs.rs/once_cell/latest/once_cell/unsync/struct.OnceCell.html"
+        },
+        "std": {
+          "path": "std::cell::OnceCell",
+          "url": "https://doc.rust-lang.org/std/cell/struct.OnceCell.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "unsync::Lazy",
+          "url": "https://docs.rs/once_cell/latest/once_cell/unsync/struct.Lazy.html"
+        },
+        "std": {
+          "path": "std::cell::LazyCell",
+          "url": "https://doc.rust-lang.org/std/cell/struct.LazyCell.html"
+        }
+      }
+    ]
+  },
+  "unstable": [
+    {
+      "crate": {
+        "path": "sync::OnceCell::get_or_try_init",
+        "url": "https://docs.rs/once_cell/latest/once_cell/sync/struct.OnceCell.html#method.get_or_try_init"
+      },
+      "std": {
+        "path": "std::sync::OnceLock::get_or_try_init",
+        "url": "https://doc.rust-lang.org/std/sync/struct.OnceLock.html#method.get_or_try_init"
+      }
+    },
+    {
+      "crate": {
+        "path": "unsync::OnceCell::get_or_try_init",
+        "url": "https://docs.rs/once_cell/latest/once_cell/unsync/struct.OnceCell.html#method.get_or_try_init"
+      },
+      "std": {
+        "path": "std::cell::OnceCell::get_or_try_init",
+        "url": "https://doc.rust-lang.org/std/cell/struct.OnceCell.html#method.get_or_try_init"
+      }
+    }
+  ]
+}

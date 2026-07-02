@@ -1,0 +1,28 @@
+{
+  "stable": {
+    "64": [
+      {
+        "crate": {
+          "path": "CStr",
+          "url": "https://docs.rs/cstr_core/latest/cstr_core/struct.CStr.html"
+        },
+        "note": "Moved from std to core, allowing `no_std` usage",
+        "std": {
+          "path": "core::ffi::CStr",
+          "url": "https://doc.rust-lang.org/core/ffi/struct.CStr.html"
+        }
+      },
+      {
+        "crate": {
+          "path": "CString",
+          "url": "https://docs.rs/cstr_core/latest/cstr_core/struct.CString.html"
+        },
+        "note": "Moved from std to core, allowing `no_std` usage",
+        "std": {
+          "path": "alloc::ffi::CString",
+          "url": "https://doc.rust-lang.org/alloc/ffi/struct.CString.html"
+        }
+      }
+    ]
+  }
+}

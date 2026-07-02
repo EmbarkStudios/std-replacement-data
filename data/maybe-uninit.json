@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "36": [
+      {
+        "crate": {
+          "path": "MaybeUninit",
+          "url": "https://docs.rs/maybe-uninit/latest/maybe_uninit/union.MaybeUninit.html"
+        },
+        "std": {
+          "path": "std::mem::MaybeUninit",
+          "url": "https://doc.rust-lang.org/std/mem/union.MaybeUninit.html"
+        }
+      }
+    ]
+  }
+}

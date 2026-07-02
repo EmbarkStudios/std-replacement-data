@@ -1,0 +1,26 @@
+{
+  "stable": {
+    "61": [
+      {
+        "crate": {
+          "path": "Vec::retain_mut",
+          "url": "https://docs.rs/retain_mut/latest/retain_mut/trait.RetainMut.html"
+        },
+        "std": {
+          "path": "alloc::vec::Vec::retain_mut",
+          "url": "https://doc.rust-lang.org/alloc/vec/struct.Vec.html#method.retain_mut"
+        }
+      },
+      {
+        "crate": {
+          "path": "VecDeque::retain_mut",
+          "url": "https://docs.rs/retain_mut/latest/retain_mut/trait.RetainMut.html"
+        },
+        "std": {
+          "path": "alloc::collections::vec_deque::VecDeque::retain_mut",
+          "url": "https://doc.rust-lang.org/alloc/collections/vec_deque/struct.VecDeque.html#method.retain_mut"
+        }
+      }
+    ]
+  }
+}

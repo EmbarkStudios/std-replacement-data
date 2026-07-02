@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "20": [
+      {
+        "crate": {
+          "path": "NoDrop",
+          "url": "https://docs.rs/nodrop/latest/nodrop/struct.NoDrop.html"
+        },
+        "std": {
+          "path": "core::mem::ManuallyDrop",
+          "url": "https://doc.rust-lang.org/core/mem/struct.ManuallyDrop.html"
+        }
+      }
+    ]
+  }
+}
