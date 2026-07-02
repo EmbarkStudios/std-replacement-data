@@ -22,6 +22,28 @@ fn main() {
         );
     }
 
-    let mut out = std::fs::File::create("all.json").expect("failed to create output file");
-    serde_json::to_writer_pretty(&mut out, &root).expect("failed to serialize output");
+    let mut cmd = std::process::Command::new("git");
+    cmd.args(["checkout", "collated"]);
+    cmd.status().expect("failed to checkout 'collated'");
+
+    {
+        let mut out = std::fs::File::create("all.json").expect("failed to create output file");
+        serde_json::to_writer_pretty(&mut out, &root).expect("failed to serialize output");
+    }
+
+    let mut cmd = std::process::Command::new("git");
+    cmd.args(["add", "all.json"]);
+    cmd.status().expect("failed to add 'all.json'");
+
+    let mut cmd = std::process::Command::new("git");
+    cmd.args(["commit", "--message", "update all.json"]);
+    cmd.status().expect("failed to commit 'all.json'");
+
+    let mut cmd = std::process::Command::new("git");
+    cmd.args(["push", "-f"]);
+    cmd.status().expect("failed to push 'all.json'");
+
+    let mut cmd = std::process::Command::new("git");
+    cmd.args(["checkout", "-"]);
+    cmd.status().expect("failed to return to previous branch");
 }
