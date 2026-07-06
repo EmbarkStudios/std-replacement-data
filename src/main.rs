@@ -87,6 +87,17 @@ fn main() {
 
                 self.serialize_api(&format!("{path}[{i}].crate"), c);
                 self.serialize_api(&format!("{path}[{i}].std"), s);
+
+                let Some(note) = api.remove("note") else {
+                    self.v.push(0);
+                    continue;
+                };
+
+                let Some(note) = note.as_str() else {
+                    panic!("{path}[{i}].note is not a string - {note:?}");
+                };
+
+                self.serialize_str(note);
             }
         }
 
